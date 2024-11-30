@@ -150,7 +150,7 @@ useEffect(() => {
       {toggle ? <X /> : <Menu />}
       </button>
 
-      {toggle && <div className="absolute w-3/4 transition-all duration-500 bg-gradient-to-r from-slate-950 to-slate-800 text-white px-8 py-6 -left-0 mt-11 flex flex-col gap-8 h-screen  ">
+      {toggle && <div className="fixed w-3/4 transition-all duration-500 bg-gradient-to-r from-slate-950 to-slate-800 text-white px-8 py-6 -left-0 mt-11 flex flex-col gap-8 h-screen  ">
             <div className="flex flex-col space-y-8">
               <div className="flex gap-4">
                 <div className='border rounded-full p-2 bg-white'>
